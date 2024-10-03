@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f2ed;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-board-title {
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+.vision-board-title h1 {
+    font-family: "Great Vibes", cursive; 
+    font-size: 6.5rem; 
+    color: #4f3b29;
+}
+
+.vision-board-title p {
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 2dvi;
+    color: #a58b75;
+    font-weight: 200; 
+}
+
+.vision-board-title h2 {
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 5rem;
+    color: #4f3b29;
+    font-weight: 300; 
+}
+
+.vision-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.vision-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.vision-item:hover {
+    transform: scale(1.05);
+}
+
+.vision-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.vision-item p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #614b3a;
+}
